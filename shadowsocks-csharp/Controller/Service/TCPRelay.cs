@@ -588,6 +588,9 @@ namespace Shadowsocks.Controller
                         case ProxyConfig.PROXY_HTTP:
                             remote = new HttpProxy();
                             break;
+                        case ProxyConfig.PROXY_SSR:
+                            remote = new SSRProxy();
+                            break;
                         default:
                             throw new NotSupportedException("Unknown forward proxy.");
                     }

@@ -10,7 +10,7 @@
 1. System proxy configuration
 2. PAC mode and global mode
 3. [GFWList] and user rules
-4. Supports HTTP proxy
+4. Supports HTTP proxy and ShadowsocksR proxy protocol
 5. Supports server auto switching
 6. Supports UDP relay (see Usage)
 7. Supports plugins
@@ -30,7 +30,7 @@ Microsoft [.NET Framework 4.6.2] or higher, Microsoft [Visual C++ 2015 Redistrib
 3. Select `Enable System Proxy` menu to enable system proxy. Please disable other
 proxy addons in your browser, or set them to use system proxy
 4. You can also configure your browser proxy manually if you don't want to enable
-system proxy. Set Socks5 or HTTP proxy to 127.0.0.1:1080. You can change this
+system proxy. Set Socks5, HTTP or SSR proxy to 127.0.0.1:1080. You can change this
 port in `Servers -> Edit Servers`
 
 #### PAC
