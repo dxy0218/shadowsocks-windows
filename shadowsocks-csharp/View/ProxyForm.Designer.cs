@@ -139,7 +139,8 @@
             this.ProxyTypeComboBox.FormattingEnabled = true;
             this.ProxyTypeComboBox.Items.AddRange(new object[] {
             "SOCKS5",
-            "HTTP"});
+            "HTTP",
+            "SSR"});
             this.ProxyTypeComboBox.Location = new System.Drawing.Point(74, 36);
             this.ProxyTypeComboBox.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.ProxyTypeComboBox.Name = "ProxyTypeComboBox";

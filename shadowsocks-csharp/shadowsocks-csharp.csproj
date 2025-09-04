@@ -130,6 +130,7 @@
     <Compile Include="Proxy\DirectConnect.cs" />
     <Compile Include="Proxy\HttpProxy.cs" />
     <Compile Include="Proxy\IProxy.cs" />
+    <Compile Include="Proxy\SSRProxy.cs" />
     <Compile Include="Controller\Service\AvailabilityStatistics.cs" />
     <Compile Include="Controller\Strategy\HighAvailabilityStrategy.cs" />
     <Compile Include="Controller\Strategy\StatisticsStrategy.cs" />
